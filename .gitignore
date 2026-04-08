@@ -1,0 +1,21 @@
+# Logs
+*.log
+*.log.*
+docs/*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Kubernetes local files
+kubeconfig
+.kube/
+
+# Temporary files
+*.tmp
+*.swp
+*~
