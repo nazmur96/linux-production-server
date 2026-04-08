@@ -29,17 +29,21 @@ Client Request → NodePort (30000-32767) → Service → Pod (Nginx)
 - Internet connection
 
 ## 📁 Project Structure
+
+
+
 linux-production-server/
-├── scripts/ # Automation scripts (run in order)
-│ ├── base.sh # 1. System updates & essentials
-│ ├── users.sh # 2. Create non-root user
-│ ├── security.sh # 3. Security hardening
-│ ├── docker.sh # 4. Docker installation
-│ └── k3s.sh # 5. k3s Kubernetes setup
-├── docs/ # Documentation
-│ ├── users-setup.md # User management details
-│ └── docker-setup.md # Docker configuration
-└── README.md # This file
+
+  ├── scripts/ # Automation scripts (run in order)
+    │ ├── base.sh # 1. System updates & essentials
+    │ ├── users.sh # 2. Create non-root user
+    │ ├── security.sh # 3. Security hardening
+    │ ├── docker.sh # 4. Docker installation
+    │ └── k3s.sh # 5. k3s Kubernetes setup
+  ├── docs/ # Documentation
+    │ ├── users-setup.md # User management details
+    │ └── docker-setup.md # Docker configuration
+  └── README.md # This file
 
 
 ## 🚀 Quick Start
